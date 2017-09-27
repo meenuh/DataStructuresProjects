@@ -1,0 +1,52 @@
+/*	
+    This header file contains the functions to maintain
+	and process a linked list.
+*/
+
+/*  Singly-Linked List ADT Type Definitions */
+
+
+
+typedef struct node 
+   {
+	void*        dataPtr;
+	struct node* link;
+   } NODE; 
+
+typedef struct
+   {
+	int   count; 
+	NODE* pos;
+	NODE* head; 
+	NODE* rear;
+	int    (*compare) (void* argu1, void* argu2); 
+   } LIST;
+
+/* List ADT Prototype Declarations: public functions */
+	LIST* createList   (int (*compare)
+	                   (void* argu1, void* argu2));
+
+	LIST* destroyList  (LIST* list);
+
+	int   addNode   (LIST* pList, void* dataInPtr);
+
+	int   removeNode   (LIST*  pList,
+	                    void*  keyPtr,
+	                    void** dataOutPtr);
+
+	void  *searchList   (LIST*  pList,
+	                    void*  pArgu);
+
+	int   retrieveNode (LIST*  pList,
+	                    void*  pArgu,
+	                    void** dataOutPtr);
+
+	int   traverse     (LIST*  pList,
+	                    int    fromWhere,
+	                    void** dataOutPtr);
+
+	int   listCount    (LIST*  pList);
+	int   emptyList    (LIST*  pList);
+	int   fullList     (LIST*  pList);
+    void adjustList(LIST *pList, void *key);
+

@@ -1,0 +1,21 @@
+HU Hungary; Budapest; 10006835
+MX Mexico; Mexico City; 106202903
+CN China; Beijing; 1306313812
+NP Nepal; Kathmandu; 27676547
+MU Mauritius; Port Louis; 1230602
+FR France; Paris; 60656178
+ES Spain; Madrid; 40341462
+EG Egypt; Cairo; 77505756
+TW Taiwan; Taipei; 22894384
+GR Greece; Athens; 10668354
+US United States; Washington, DC; 295734134
+AU Australia; Canberra; 20090437
+LI Liechtenstein; Vaduz; 33717
+RU Russia; Moscow; 143420309
+CA Canada; Ottawa; 32805041
+MC Monaco; Monaco; 32409
+BR Brazil; Brasilia; 186112794
+IR Iran; Tehran; 68017860
+FR France; Paris; 60656178
+DO Dominican Republic; Santo Domingo; 8950034
+FJ Figi; Suva; 893354
